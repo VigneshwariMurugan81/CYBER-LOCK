@@ -422,7 +422,7 @@ function renderEntry(){
         '<div class="rule-card"><div class="rn">Stages</div><p>Five, in order. Each uses a different code or cipher to crack.</p></div>' +
         '<div class="rule-card"><div class="rn">Progress</div><p>Saved on this device — refresh or lock your screen, you won\u2019t lose your place.</p></div>' +
         '<div class="rule-card"><div class="rn">Uniqueness</div><p>Your team name decides your case — different names, different scenarios.</p></div>' +
-      '</div>' +
+      '</div>' 
     ;
 
   document.getElementById('entry-form').addEventListener('submit', function(ev){
