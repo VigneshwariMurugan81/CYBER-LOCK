@@ -338,7 +338,8 @@ document.addEventListener("visibilitychange", () => {
     if (gameStarted && document.visibilityState === "visible") {
         alert(
             "⚠️ TAB SWITCH DETECTED!\n\n" +
-            "Please stay on the CYBER-LOCK game page."
+            "Please stay on the CYBER-LOCK game page."+
+          "The session will end if another tab change is detected !!"
         );
     }
 });
