@@ -325,6 +325,23 @@
   <main id="screen"></main>
 </div>
 
-<script src="app.js"></script>
+<script src="app.js">
+  <script>
+let gameStarted = false;
+
+document.addEventListener("DOMContentLoaded", () => {
+    gameStarted = true;
+});
+
+document.addEventListener("visibilitychange", () => {
+    if (gameStarted && document.visibilityState === "visible") {
+        alert(
+            "⚠️ TAB SWITCH DETECTED!\n\n" +
+            "Please stay on the CYBER-LOCK game page."
+        );
+    }
+});
+</script>
+</script>
 </body>
 </html>
